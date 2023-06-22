@@ -1,0 +1,263 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  font-size: 2.4rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  font-size: 3rem;
+}
+
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url(imgs2/amstaricon.jpg);
+}
+
+.carousel-img-two {
+  background-image:url(imgs2/solarpanel.jpg);
+}
+
+.carousel-img-three {
+  background-image:url(imgs2/lights.jpg);
+}
+
+
+.home-boxes {
+    padding: 5em 0;
+  }
+  .home-boxes i {
+    color: tomato;
+  }
+  
+  .home-box i {
+    font-size: 4rem;
+  }
+  
+  .home-box h3 {
+    font-size: 2.6rem;
+    margin-top: 10px;
+  }
+  
+  .home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url("imgs2/IMG-20230620-WA0141.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  .home-passion span {
+    color: tomato;
+    letter-spacing: 1px;
+  }
+  
+  .contact-btn {
+    padding: 15px 30px;
+    background: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+    margin-left: 150px;
+    transition: background-color 0.3s;
+    font-size: 22px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #212529;
+  }
+  
+  .home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .main-img1 {
+    border-radius: 5px;
+  }
+  
+  footer {
+    font-size: 1.6rem;
+  }
+  
+ 
+  .service-hero {
+    background-image: url("imgs2/IMG-20230620-WA0142.jpg");
+    background-position: 0 30%;
+    height: 300px;
+  }
+  
+  .service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+  }
+  
+  .service-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .text-ani {
+    transition: font-size 0.4s;
+  }
+  
+  .text-ani:hover {
+    font-size: 42px;
+  }
+  
+  .box-one {
+    background-image: url("imgs2/electricalinstallation.jpg");
+  }
+  
+  .box-two {
+    background-image: url("imgs2/energyaudit.jpg");
+    background-position: center;
+  }
+  
+  .box-three {
+    background-image: url("imgs2/solarpanel2.jpg");
+  }
+  
+  .box-four {
+    background-image: url("imgs2/IMG-20230620-WA0146.jpg");
+  }
+  
+  .projects-hero {
+    height: 300px;
+    background-image: url("imgs2/IMG-20230620-WA0143.jpg");
+  }
+  
+  .projects img {
+    height: 240px;
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 15px;
+    transition: 0.5s;
+  }
+  
+  .projects img:hover {
+    transform: scale(1.1);
+  }
+  
+  .projects .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  
+  .pro {
+    color: tomato;
+  }
+  .products-hero {
+    height: 300px;
+    background-image: url("imgs2/IMG-20230620-WA0143.jpg");
+  }
+  
+  .products img {
+    height: 500px;
+    width: 500px;
+    -o-object-fit: cover;
+       object-fit: contain;
+    padding: 15px;
+    transition: 0.5s;
+  }
+  
+  .products img:hover {
+    transform: scale(1.1);
+  }
+  
+  .products .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  
+  .pro {
+    color: tomato;
+  }
+  
+  .contact-hero {
+    background-image: url("imgs2/contact.jpg");
+    height: 300px;
+    background-position: 0 80%;
+  }
+  
+  .contact-box h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
